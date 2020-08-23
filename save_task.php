@@ -14,6 +14,9 @@ include("db.php");
             die("Query Failed");
         }
 
+        $_SESSION['message'] = 'Task saved successfully';
+        $_SESSION['message_type'] = 'success';
+
         #Redireccionar a la ruta principal
         header("Location: index.php");
     }
