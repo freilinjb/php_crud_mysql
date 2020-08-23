@@ -7,10 +7,12 @@ $conn = mysqli_connect(
 );
 
 
-if(isset($conn)) {
-    echo "DB is connected";
-} else {
-    echo "DB not connected";
+// if(isset($conn)) {
+//     echo "DB is connected";
+// } else {
+//     echo "DB not connected";
     
-}
+// }
+
+
 ?>
