@@ -6,13 +6,4 @@ $conn = mysqli_connect(
     'php_crud_mysql'
 );
 
-
-// if(isset($conn)) {
-//     echo "DB is connected";
-// } else {
-//     echo "DB not connected";
-    
-// }
-
-
 ?>

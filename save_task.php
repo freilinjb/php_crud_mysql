@@ -14,7 +14,7 @@ include("db.php");
             die("Query Failed");
         }
 
-        echo "saved";
-
+        #Redireccionar a la ruta principal
+        header("Location: index.php");
     }
 ?>
