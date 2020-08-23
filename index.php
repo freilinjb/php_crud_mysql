@@ -10,7 +10,7 @@ include("includes/header.php");
     <div class="row">
         <div class="col-md-4">
         <div class="card card-body">
-                <form action="">
+                <form action="save_task.php" method="POST">
                     <div class="form-group">
                         <input type="text" name="title" class="form-control" placeholder="Task title" autofocus>
                     </div>
