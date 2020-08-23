@@ -14,14 +14,13 @@ include("includes/header.php");
             #Pregunta si existe un mensaje de la sesion para mostrarlo
             if (isset($_SESSION['message'])) { ?>
 
-                <div class="alert alert-<?= $_SESSION['message_type']?> alert-dismissible fade show" role="alert">
+                <div class="alert alert-<?= $_SESSION['message_type'];?> alert-dismissible fade show" role="alert">
                     <strong><?= $_SESSION['message'] ?>!!</strong>
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-
-            <?php }
+            <?php  session_unset(); }
             ?>
 
             <div class="card card-body">
