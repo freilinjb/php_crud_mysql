@@ -62,7 +62,7 @@ include("includes/header.php");
                                     <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                                 </a>
 
-                                <a href="delete.php?id=<?php echo $row['id'] ?>" class="btn btn-danger">
+                                <a href="delete_task.php?id=<?php echo $row['id'] ?>" class="btn btn-danger">
                                     <i class="fa fa-trash" aria-hidden="true"></i>
                                  </a>
                             </td>
