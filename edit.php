@@ -12,12 +12,18 @@ if (isset($_GET['id'])) {
         $row = mysqli_fetch_row($result);
         $title = $row[1];
         $description = $row[2];
-    } 
+    }
 }
 #Si existe el dato UPDATE eso quiere decir que se va a actualizar del mismo form
 
 if(isset($_POST['update'])) {
-    echo "Updating";
+    $id = $_GET['id'];
+    $title = $_POST['title'];
+    $description = $_POST['description'];
+
+    echo $title;
+    echo $description;
+    echo $id;
 }
 ?>
 
